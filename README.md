@@ -77,9 +77,10 @@ This project is a full-stack MERN (MongoDB, Express, React, Node.js) application
 - `server/src/schemas/` - GraphQL typeDefs and resolvers
 - `server/src/utils/` - Authentication utilities
 
+## Deployment
+- Link to Render deployment: <https://columbia-coding-bootcamp-module-18.onrender.com>
+
 ## License
 This project is licensed under the MIT License.
 
 ---
-
-**Happy reading!**
