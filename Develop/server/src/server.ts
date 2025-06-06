@@ -19,6 +19,7 @@ app.use(express.json());
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    cache: 'bounded', // Prevent unbounded cache warning
     context: ({ req }: { req: Request }) => {
       const user = getUserFromToken(req);
       return { user };
